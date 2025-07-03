@@ -1,0 +1,107 @@
+[
+  {
+    "word": "余り",
+    "details": {
+      "description": "Common word used as an adverb (\", not much\", \"too much\") or a noun (\"remainder\", \"excess\").",
+      "kana": "あまり",
+      "translation": "Not very, too much, remainder"
+    },
+    "examples": [
+      {
+        "japanese": "A: この料理どう？\nB: うーん、あまり美味しくないね。",
+        "romaji": "A: Kono ryōri dō?\nB: Ūn, amari oishiku nai ne.",
+        "translation": "A: How is this dish?\nB: Hmm, it's not very delicious."
+      },
+      {
+        "japanese": "A: 先生の話、分かった？\nB: ごめん、あまり分かりませんでした。",
+        "romaji": "A: Sensei no hanashi, wakatta?\nB: Gomen, amari wakarimasen deshita.",
+        "translation": "A: Did you understand what the teacher said?\nB: Sorry, I didn't understand very well."
+      },
+      {
+        "japanese": "A: 夕食、たくさん作ったけど、食べきれるかな？\nB: 食べきれなかったら、明日の余りにしよう。",
+        "romaji": "A: Yūshoku, takusan tsukutta kedo, tabekireru kana?\nB: Tabekirenakattara, ashita no amari ni shiyō.",
+        "translation": "A: I made a lot for dinner, but I wonder if we can finish it all?\nB: If we can't finish it, let's make it tomorrow's leftovers."
+      },
+      {
+        "japanese": "A: 最近仕事忙しい？\nB: いや、あまり忙しくないよ。",
+        "romaji": "A: Saikin shigoto isogashii?\nB: Iya, amari isogashiku nai yo.",
+        "translation": "A: Have you been busy with work recently?\nB: No, not very busy."
+      },
+      {
+        "japanese": "A: この駅、ちょっと遠いね。\nB: うん、あまり便利じゃないね。",
+        "romaji": "A: Kono eki, chotto tōi ne.\nB: Un, amari benri ja nai ne.",
+        "translation": "A: This station is a bit far, isn't it.\nB: Yeah, it's not very convenient."
+      }
+    ]
+  },
+  {
+    "word": "使う",
+    "details": {
+      "description": "Common verb meaning to use or utilize.",
+      "kana": "つかう",
+      "translation": "To use"
+    },
+    "examples": [
+      {
+        "japanese": "A: このペン使ってもいいですか？\nB: はい、どうぞ。",
+        "romaji": "A: Kono pen tsukatte mo ii desu ka?\nB: Hai, douzo.",
+        "translation": "A: May I use this pen?\nB: Yes, please go ahead."
+      },
+      {
+        "japanese": "A: パソコン使いたいんだけど。\nB: ああ、今使ってないよ。",
+        "romaji": "A: Pasokon tsukaitain da kedo.\nB: Aa, ima tsukattenai yo.",
+        "translation": "A: I want to use the computer.\nB: Oh, I'm not using it now."
+      },
+      {
+        "japanese": "A: 明日時間使って手伝ってくれる？\nB: いいよ、何時にする？",
+        "romaji": "A: Ashita jikan tsukatte tetsudatte kureru?\nB: Ii yo, nanji ni suru?",
+        "translation": "A: Can you spend some time helping me tomorrow?\nB: Okay, what time should we make it?"
+      },
+      {
+        "japanese": "A: 旅行でたくさんお金使っちゃった。\nB: え、大丈夫？",
+        "romaji": "A: Ryokou de takusan okane tsukacchatta.\nB: E, daijoubu?",
+        "translation": "A: I ended up spending a lot of money on the trip.\nB: Huh? Are you okay?"
+      },
+      {
+        "japanese": "A: この言葉、どういう時に使うの？\nB: それはね、驚いた時に使うんだよ。",
+        "romaji": "A: Kono kotoba, dou iu toki ni tsukau no?\nB: Sore wa ne, odoroita toki ni tsukau n da yo.",
+        "translation": "A: When do you use this word?\nB: You use that when you're surprised."
+      }
+    ]
+  },
+  {
+    "word": "もし",
+    "details": {
+      "description": "An adverb or conjunction used to introduce a hypothetical condition or situation.",
+      "kana": "もし",
+      "translation": "if, supposing"
+    },
+    "examples": [
+      {
+        "japanese": "A: もし雨が降ったら、どうしますか？\nB: 部屋で映画を見ましょう。",
+        "romaji": "A: Moshi ame ga futtara, dō shimasu ka?\nB: Heya de eiga o mimashō.",
+        "translation": "A: If it rains, what will we do?\nB: Let's watch a movie in the room."
+      },
+      {
+        "japanese": "A: もし時間があったら、手伝ってもらえますか？\nB: はい、いいですよ。",
+        "romaji": "A: Moshi jikan ga attara, tetsudatte moraemasu ka?\nB: Hai, ii desu yo.",
+        "translation": "A: If you have time, could you help me?\nB: Yes, of course."
+      },
+      {
+        "japanese": "A: もし私が間違っていたら、教えてください。\nB: 大丈夫です。よくできていますよ。",
+        "romaji": "A: Moshi watashi ga machigatte itara, oshiete kudasai.\nB: Daijōbu desu. Yoku dekite imasu yo.",
+        "translation": "A: If I am wrong, please tell me.\nB: It's okay. You're doing well."
+      },
+      {
+        "japanese": "A: もし嫌いなら、食べなくてもいいですよ。\nB: いえ、美味しいです。",
+        "romaji": "A: Moshi kirai nara, tabenakute mo ii desu yo.\nB: Ie, oishii desu.",
+        "translation": "A: If you don't like it, you don't have to eat it.\nB: No, it's delicious."
+      },
+      {
+        "japanese": "A: もしもし？聞こえますか？\nB: はい、聞こえます。",
+        "romaji": "A: Moshi moshi? Kikoemasu ka?\nB: Hai, kikoemasu.",
+        "translation": "A: Hello? Can you hear me?\nB: Yes, I can hear you."
+      }
+    ]
+  }
+]

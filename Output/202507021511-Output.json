@@ -1,0 +1,282 @@
+[
+  {
+    "word": "計画",
+    "details": {
+      "description": "Common noun for a plan, project, or scheme. Can also be a verb.",
+      "kana": "けいかく",
+      "translation": "Plan"
+    },
+    "examples": [
+      {
+        "japanese": "A: DXプロジェクトの計画、どうなっていますか？\nB: はい、順調に進んでいます。",
+        "romaji": "A: DX purojekuto no keikaku, dō natte imasu ka?\nB: Hai, junchō ni susunde imasu.",
+        "translation": "A: How is the DX project plan progressing?\nB: Yes, it's proceeding smoothly."
+      },
+      {
+        "japanese": "A: この新しい機能の計画、見ていただけますか？\nB: はい、後で見ますね。",
+        "romaji": "A: Kono atarashii kinō no keikaku, mite itadakemasu ka?\nB: Hai, ato de mimasu ne.",
+        "translation": "A: Could you take a look at the plan for this new feature?\nB: Yes, I'll look at it later."
+      },
+      {
+        "japanese": "A: 次のフェーズの計画はもうできていますか？\nB: ええ、だいたいまとまりました。",
+        "romaji": "A: Tsugi no fēzu no keikaku wa mō dekite imasu ka?\nB: Ē, daitai matomarimashita.",
+        "translation": "A: Is the plan for the next phase ready yet?\nB: Yes, it's mostly finalized."
+      },
+      {
+        "japanese": "A: スケジュールが遅れているので、計画を変更する必要があります。\nB: そうですね、調整しましょう。",
+        "romaji": "A: Sukejūru ga okurete iru node, keikaku o henkō suru hitsuyō ga arimasu.\nB: Sō desu ne, chōsei shimashō.",
+        "translation": "A: The schedule is delayed, so we need to change the plan.\nB: Yes, let's adjust it."
+      },
+      {
+        "japanese": "A: このDXプロジェクトの計画、結構複雑ですね。\nB: はい、多くの要素が絡んでいますから。",
+        "romaji": "A: Kono DX purojekuto no keikaku, kekkō fukuzatsu desu ne.\nB: Hai, ōku no yōso ga karande imasu kara.",
+        "translation": "A: The plan for this DX project is quite complex, isn't it?\nB: Yes, because many factors are involved."
+      }
+    ]
+  },
+  {
+    "word": "予定",
+    "details": {
+      "description": "Common noun.",
+      "kana": "よてい",
+      "translation": "Plan / Schedule"
+    },
+    "examples": [
+      {
+        "japanese": "A: 今日のDXプロジェクトの進捗会議の予定は？\nB: はい、14時から会議室Cです。",
+        "romaji": "A: Kyō no DX purojekuto no shinchoku kaigi no yotei wa?\nB: Hai, 14-ji kara kaigishitsu C desu.",
+        "translation": "A: What's the schedule for today's DX project progress meeting?\nB: Yes, it's from 2 PM in Meeting Room C."
+      },
+      {
+        "japanese": "A: 来週の新しい機能開発の予定はどうなっていますか？\nB: 仕様を確定後、来週中に開始する予定です。",
+        "romaji": "A: Raishū no atarashii kinō kaihatsu no yotei wa dō natte imasu ka?\nB: Shiyō o kakutei-go, raishū-chū ni kaishi suru yotei desu.",
+        "translation": "A: What's the plan for the new feature development next week?\nB: After finalizing the specs, we plan to start it sometime next week."
+      },
+      {
+        "japanese": "A: 田中さんとの打ち合わせの予定は入っていますか？\nB: ええ、明日の午前中に予定されています。",
+        "romaji": "A: Tanaka-san to no uchiawase no yotei wa haitte imasu ka?\nB: Ee, ashita no gozen-chū ni yotei sa rete imasu.",
+        "translation": "A: Is the meeting with Mr./Ms. Tanaka scheduled?\nB: Yes, it's scheduled for tomorrow morning."
+      },
+      {
+        "japanese": "A: このタスクの完了予定日はいつですか？\nB: 今のところ、来月末を予定しています。",
+        "romaji": "A: Kono tasuku no kanryō yotei-bi wa itsu desu ka?\nB: Ima no tokoro, raigetsu-matsu o yotei shite imasu.",
+        "translation": "A: What's the planned completion date for this task?\nB: As of now, we're planning for the end of next month."
+      },
+      {
+        "japanese": "A: 午後の時間は空いていますか？今日のバグ修正の予定を教えてください。\nB: 午後はずっと空いています。バグ修正は1時間くらいで終わる予定です。",
+        "romaji": "A: Gogo no jikan wa aite imasu ka? Kyō no bagu shūsei no yotei o oshiete kudasai.\nB: Gogo wa zutto aite imasu. Bagu shūsei wa 1-jikan kurai de owaru yotei desu.",
+        "translation": "A: Are you free in the afternoon? Please tell me your schedule for today's bug fixing.\nB: I'm free all afternoon. The bug fixing is planned to finish in about an hour."
+      }
+    ]
+  },
+  {
+    "word": "提供",
+    "details": {
+      "description": "Common verb.",
+      "kana": "ていきょう",
+      "translation": "Provide; offer"
+    },
+    "examples": [
+      {
+        "japanese": "A:今回のDXプロジェクトで、どのようなソリューションを提供しますか？\nB:お客様のニーズに合わせて、クラウドベースのシステムを提供予定です。",
+        "romaji": "A:Konkai no DX purojekuto de, dono yō na soryūshon o teikyō shimasu ka?\nB:Okyakusama no nīzu ni awasete, kuraudo-bēsu no shisutemu o teikyō yotei desu.",
+        "translation": "A:What kind of solutions will we provide in this DX project?\nB:We plan to provide cloud-based systems tailored to the client's needs."
+      },
+      {
+        "japanese": "A:この新しい機能は、ユーザーにどんな価値を提供しますか？\nB:データ分析に基づいたパーソナライズされた体験を提供できます。",
+        "romaji": "A:Kono atarashii kinō wa, yūzā ni donna kachi o teikyō shimasu ka?\nB:Dēta bunseki ni motozuita pāsonarizu-sareta taiken o teikyō dekimasu.",
+        "translation": "A:What value does this new feature provide to users?\nB:It can provide a personalized experience based on data analysis."
+      },
+      {
+        "japanese": "A:プロジェクトチームに最新のデータを提供してもらえますか？\nB:はい、すぐに必要なデータを提供します。",
+        "romaji": "A:Purojekuto chīmu ni saishin no dēta o teikyō shite moraemasu ka?\nB:Hai, sugu ni hitsuyō na dēta o teikyō shimasu.",
+        "translation": "A:Could you provide the latest data to the project team?\nB:Yes, I will provide the necessary data right away."
+      },
+      {
+        "japanese": "A:グローバルロジックは、どんな種類のITサービスを提供していますか？\nB:DX推進のためのコンサルティングから開発、運用まで幅広く提供しています。",
+        "romaji": "A:Gurōbarurojikku wa, donna shurui no IT sābisu o teikyō shite imasu ka?\nB:DX suishin no tame no konsarutingu kara kaihatsu, un'yō made habahiroku teikyō shite imasu.",
+        "translation": "A:What kind of IT services does GlobalLogic provide?\nB:We provide a wide range from consulting for DX promotion to development and operation."
+      },
+      {
+        "japanese": "A:お客様への定期報告で、システムの稼働状況を提供しましょう。\nB:そうですね、信頼性の高さを示す重要な情報提供になります。",
+        "romaji": "A:Okyakusama e no teiki hōkoku de, shisutemu no kadō jōkyō o teikyō shimashō.\nB:Sō desu ne, shinraisei no takasa o shimesu jūyō na jōhō teikyō ni narimasu.",
+        "translation": "A:Let's provide the system's operational status in the regular report to the client.\nB:That's right, it will be important information provided to show its high reliability."
+      }
+    ]
+  },
+  {
+    "word": "根本的",
+    "details": {
+      "description": "Na-adjective meaning fundamental or essential.",
+      "kana": "こんぽんてき",
+      "translation": "Fundamental"
+    },
+    "examples": [
+      {
+        "japanese": "A: このシステムの根本的な問題は何ですか？\nB: データの整合性に問題があります。",
+        "romaji": "A: Kono shisutemu no konponteki na mondai wa nan desu ka?\nB: Dēta no seigōsei ni mondai ga arimasu.",
+        "translation": "A: What is the fundamental problem with this system?\nB: There is a problem with data consistency."
+      },
+      {
+        "japanese": "A: DXを成功させるためには、根本的なアプローチが必要です。\nB: ええ、単なるツールの導入だけではダメですね。",
+        "romaji": "A: DX o seikō sa seru tame ni wa, konponteki na apurōchi ga hitsuyō desu.\nB: Ee, tan naru tsūru no dōnyū dake de wa dame desu ne.",
+        "translation": "A: To succeed with DX, a fundamental approach is needed.\nB: Yes, simply introducing tools isn't enough."
+      },
+      {
+        "japanese": "A: プロジェクトの遅延は、根本的な計画ミスから来ていますね。\nB: その通りです。最初の要件定義を見直す必要があります。",
+        "romaji": "A: Purojekuto no chien wa, konponteki na keikaku misu kara kite imasu ne.\nB: Sono tōri desu. Saisho no yōken teigi o minaosu hitsuyō ga arimasu.",
+        "translation": "A: The project delay stems from a fundamental planning error, doesn't it?\nB: That's right. We need to review the initial requirements definition."
+      },
+      {
+        "japanese": "A: チームには、根本的な意識改革が求められています。\nB: アジャイル開発への適応が鍵ですね。",
+        "romaji": "A: Chīmu ni wa, konponteki na ishiki kaikaku ga motome rarete imasu.\nB: Ajariru kaihatsu e no tekiō ga kagi desu ne.",
+        "translation": "A: A fundamental change in mindset is required for the team.\nB: Adapting to agile development is key, isn't it?"
+      },
+      {
+        "japanese": "A: このDX戦略の根本的な柱は何でしょうか？\nB: 顧客体験の向上とデータ活用です。",
+        "romaji": "A: Kono DX senryaku no konponteki na hashira wa nan deshō ka?\nB: Kokyaku taiken no kōjō to dēta katsuyō desu.",
+        "translation": "A: What is the fundamental pillar of this DX strategy?\nB: It's improving customer experience and leveraging data."
+      }
+    ]
+  },
+  {
+    "word": "具体的",
+    "details": {
+      "description": "Na-adjective describing something specific or not abstract.",
+      "kana": "ぐたいてき",
+      "translation": "Concrete; Specific"
+    },
+    "examples": [
+      {
+        "japanese": "A: 次のステップについて、もう少し具体的に教えていただけますか？\nB: はい、要件定義の具体的な内容を共有しますね。",
+        "romaji": "A: Tsugi no sutepu ni tsuite, mō sukoshi gutaiteki ni oshiete itadakemasu ka?\nB: Hai, yōken teigi no gutaiteki na naiyō o kyōyū shimasu ne.",
+        "translation": "A: Could you tell me a little more specifically about the next steps?\nB: Yes, I will share the specific details of the requirements definition."
+      },
+      {
+        "japanese": "A: そのDXソリューション、具体的にどう進めますか？\nB: まず、顧客データをクラウドに移行する具体的な計画を立てます。",
+        "romaji": "A: Sono DX sorūshon, gutaiteki ni dō susumemasu ka?\nB: Mazu, kokyaku dēta o kuraudo ni ikō suru gutaiteki na keikaku o tatemasu.",
+        "translation": "A: How will you specifically proceed with that DX solution?\nB: First, we will create a concrete plan to migrate customer data to the cloud."
+      },
+      {
+        "japanese": "A: プロジェクトの進捗はどうですか？具体的な成果はありますか？\nB: はい、今週は新しいAPI連携機能の具体的な実装が完了しました。",
+        "romaji": "A: Purojekuto no shinchoku wa dō desu ka? Gutaiteki na seika wa arimasu ka?\nB: Hai, konshū wa atarashii API renkei kinō no gutaiteki na jissō ga kanryō shimashita.",
+        "translation": "A: How is the project progress? Are there any specific achievements?\nB: Yes, this week we completed the specific implementation of the new API integration function."
+      },
+      {
+        "japanese": "A: 来週のタスクについて、具体的に決まっていますか？\nB: はい、UI/UX改善の具体的な作業リストを作成中です。",
+        "romaji": "A: Raishū no tasuku ni tsuite, gutaiteki ni kimatte imasu ka?\nB: Hai, UI/UX kaizen no gutaiteki na sagyō risuto o sakusei-chū desu.",
+        "translation": "A: Have the tasks for next week been specifically decided?\nB: Yes, we are currently creating a specific task list for UI/UX improvement."
+      },
+      {
+        "japanese": "A: システムに問題があるようですが、具体的にどんな現象ですか？\nB: データをインポートする際に、具体的なエラーメッセージが表示されます。",
+        "romaji": "A: Shisutemu ni mondai ga aru yō desu ga, gutaiteki ni donna genshō desu ka?\nB: Dēta o inpōto suru sai ni, gutaiteki na erā messēji ga hyōji saremasu.",
+        "translation": "A: It seems there's a problem with the system, but what kind of specific phenomenon is it?\nB: A specific error message is displayed when importing data."
+      }
+    ]
+  },
+  {
+    "word": "最終的",
+    "details": {
+      "description": "Describes something as being the final or ultimate result/state.",
+      "kana": "さいしゅうてき",
+      "translation": "Final; eventual; ultimate"
+    },
+    "examples": [
+      {
+        "japanese": "A: 今月の最終的なレポートはいつ提出ですか？\nB: 明日までに提出する予定です。",
+        "romaji": "A: Kongetsu no saishūteki na repōto wa itsu teishutsu desu ka?\nB: Ashita made ni teishutsu suru yotei desu.",
+        "translation": "A: When is the final report for this month due?\nB: I plan to submit it by tomorrow."
+      },
+      {
+        "japanese": "A: このDXプロジェクトの最終的なアーキテクチャは決まりましたか？\nB: はい、来週中に承認される見込みです。",
+        "romaji": "A: Kono DX purojekuto no saishūteki na āki-tekucha wa kimarimashita ka?\nB: Hai, raishūchū ni shōnin sareru mikomi desu.",
+        "translation": "A: Has the final architecture for this DX project been decided?\nB: Yes, it's expected to be approved within next week."
+      },
+      {
+        "japanese": "A: ソフトウェアの最終的なバージョンはいつリリースされますか？\nB: 来月末を目指しています。",
+        "romaji": "A: Sofutowea no saishūteki na bājon wa itsu rirīsu saremasu ka?\nB: Raimatsu o mezashite imasu.",
+        "translation": "A: When will the final version of the software be released?\nB: We are aiming for the end of next month."
+      },
+      {
+        "japanese": "A: このDX推進の最終的なゴールは何ですか？\nB: 顧客体験の抜本的な向上です。",
+        "romaji": "A: Kono DX suishin no saishūteki na gōru wa nan desu ka?\nB: Kokyaku taiken no bapponteki na kōjō desu.",
+        "translation": "A: What is the ultimate goal of this DX promotion?\nB: It is a radical improvement in customer experience."
+      },
+      {
+        "japanese": "A: このタスクの最終的な締め切りはいつですか？\nB: 今週金曜日までにお願いします。",
+        "romaji": "A: Kono tasuku no saishūteki na shimekiri wa itsu desu ka?\nB: Konshū kinyōbi made ni onegai shimasu.",
+        "translation": "A: When is the final deadline for this task?\nB: Please have it done by this Friday."
+      }
+    ]
+  },
+  {
+    "word": "提供",
+    "details": {
+      "description": "Common verb meaning to provide or offer something.",
+      "kana": "ていきょう",
+      "translation": "Provide, offer"
+    },
+    "examples": [
+      {
+        "japanese": "A:新しいDXソリューションをお客様に提供する準備はできていますか？\nB:はい、最終テスト中です。明日には提供開始できる予定です。",
+        "romaji": "A:Atarashii DX soryūshon o okyaku-sama ni teikyō suru junbi wa dekite imasu ka?\nB:Hai, saishū tesuto-chū desu. Ashita ni wa teikyō kaishi dekiru yotei desu.",
+        "translation": "A:Are you ready to provide the new DX solution to the customer?\nB:Yes, we are in the final testing phase. We plan to start providing it tomorrow."
+      },
+      {
+        "japanese": "A:プロジェクトに必要なデータをいつ提供してもらえますか？\nB:来週の月曜日にデータを提供できるように手配します。",
+        "romaji": "A:Purojekuto ni hitsuyō na dēta o itsu teikyō shite moraemasu ka?\nB:Raishū no getsuyōbi ni dēta o teikyō dekiru yō ni tehai shimasu.",
+        "translation": "A:When can you get the data needed for the project provided?\nB:I will arrange to be able to provide the data next Monday."
+      },
+      {
+        "japanese": "A:お客様に安定したサポートを提供するために、体制を強化しましょう。\nB:そうですね。特にDXプロジェクトではサポート体制が重要です。",
+        "romaji": "A:Okyaku-sama ni antei shita sapōto o teikyō suru tame ni, taisei o kyōka shimashō.\nB:Sō desu ne. Tokuni DX purojekuto de wa sapōto taisei ga jūyō desu.",
+        "translation": "A:Let's strengthen our system to provide stable support to our customers.\nB:That's right. A support system is especially important in DX projects."
+      },
+      {
+        "japanese": "A:このDXプロジェクトのために、新しい開発環境を提供する必要があります。\nB:ITチームに依頼して、早急に環境を提供してもらいましょう。",
+        "romaji": "A:Kono DX purojekuto no tame ni, atarashii kaihatsu kankyō o teikyō suru hitsuyō ga arimasu.\nB:IT chīmu ni irai shite, sōkyū ni kankyō o teikyō shite moraimashō.",
+        "translation": "A:We need to provide a new development environment for this DX project.\nB:Let's ask the IT team to provide the environment urgently."
+      },
+      {
+        "japanese": "A:DX戦略の決定のために、市場の最新情報を提供してください。\nB:承知しました。調査結果をまとめて明日提供します。",
+        "romaji": "A:DX senryaku no kettei no tame ni, shijō no saishin jōhō o teikyō shite kudasai.\nB:Shōchi shimashita. Chōsa kekka o matomete ashita teikyō shimasu.",
+        "translation": "A:Please provide the latest market information for deciding the DX strategy.\nB:Understood. I will compile the survey results and provide them tomorrow."
+      }
+    ]
+  },
+  {
+    "word": "資料",
+    "details": {
+      "description": "Noun referring to data, materials, or documents used for reference or research.",
+      "kana": "しりょう",
+      "translation": "Materials / Data"
+    },
+    "examples": [
+      {
+        "japanese": "A:会議の資料を送ってもらえますか？\nB:はい、今送ります。",
+        "romaji": "A:Kaigi no shiryō o okutte moraemasu ka?\nB:Hai, ima okurimasu.",
+        "translation": "A:Could you send the meeting materials?\nB:Yes, I'll send them now."
+      },
+      {
+        "japanese": "A:プロジェクトの資料を作っていますか？\nB:はい、もうすぐ終わります。",
+        "romaji": "A:Purojekuto no shiryō o tsukutte imasu ka?\nB:Hai, mōsugu owarimasu.",
+        "translation": "A:Are you working on the project materials?\nB:Yes, almost finished."
+      },
+      {
+        "japanese": "A:クライアント向けの資料を確認しましたか？\nB:はい、大丈夫です。",
+        "romaji": "A:Kuraianto-muke no shiryō o kakunin shimashita ka?\nB:Hai, daijōbu desu.",
+        "translation": "A:Did you check the client presentation materials?\nB:Yes, it looks good."
+      },
+      {
+        "japanese": "A:DXプロジェクトの資料は準備できましたか？\nB:まだです、データをまとめているところです。",
+        "romaji": "A:Dī Ekkusu purojekuto no shiryō wa junbi dekimashita ka?\nB:Mada desu, dēta o matomete iru tokoro desu.",
+        "translation": "A:Are the materials for the DX project ready?\nB:Not yet, still compiling the data."
+      },
+      {
+        "japanese": "A:この古い資料を更新する必要がありますか？\nB:はい、最新の情報に更新しましょう。",
+        "romaji": "A:Kono furui shiryō o kōshin suru hitsuyō ga arimasu ka?\nB:Hai, saishin no jōhō ni kōshin shimashō.",
+        "translation": "A:Should we update these old materials?\nB:Yes, let's update them with the latest info."
+      }
+    ]
+  }
+]
