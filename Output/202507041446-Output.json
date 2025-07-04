@@ -1,0 +1,282 @@
+[
+  {
+    "word": "計画",
+    "details": {
+      "description": "Common noun or verb meaning plan or project.",
+      "kana": "けいかく",
+      "translation": "Plan, Project"
+    },
+    "examples": [
+      {
+        "japanese": "A: プロジェクトの計画を確認しましょう。\nB: はい、資料をご覧ください。",
+        "romaji": "A: Purojekuto no keikaku o kakunin shimashou.\nB: Hai, shiryō o goran kudasai.",
+        "translation": "A: Let's confirm the project plan.\nB: Yes, please look at the document."
+      },
+      {
+        "japanese": "A: この計画通りに進めて大丈夫ですか？\nB: ええ、そのスケジュールで問題ありません。",
+        "romaji": "A: Kono keikaku dōri ni susumete daijōbu desu ka?\nB: Ee, sono sukejūru de mondai arimasen.",
+        "translation": "A: Is it okay to proceed according to this plan?\nB: Yes, there is no problem with that schedule."
+      },
+      {
+        "japanese": "A: 計画に変更はありますか？\nB: 現在、一部修正を検討しています。",
+        "romaji": "A: Keikaku ni henkō wa arimasu ka?\nB: Genzai, ichibu shūsei o kentō shite imasu.",
+        "translation": "A: Are there any changes to the plan?\nB: Currently, we are considering some revisions."
+      },
+      {
+        "japanese": "A: 次のアクションは計画のどこに記載されていますか？\nB: 3ページの後半をご覧ください。",
+        "romaji": "A: Tsugi no akushon wa keikaku no doko ni kisai sarete imasu ka?\nB: San pēji no kōhan o goran kudasai.",
+        "translation": "A: Where are the next actions described in the plan?\nB: Please see the latter half of page 3."
+      },
+      {
+        "japanese": "A: 新しい計画案を提示します。\nB: ありがとうございます。拝見します。",
+        "romaji": "A: Atarashii keikakuan o teiji shimasu.\nB: Arigatō gozaimasu. Haiken shimasu.",
+        "translation": "A: I will present the new plan proposal.\nB: Thank you. I will take a look."
+      }
+    ]
+  },
+  {
+    "word": "予定",
+    "details": {
+      "description": "Noun meaning a plan or schedule.",
+      "kana": "よてい",
+      "translation": "Schedule"
+    },
+    "examples": [
+      {
+        "japanese": "A: このタスクの予定はいつですか？\nB: 来週中に完了予定です。",
+        "romaji": "A: Kono tasuku no yotei wa itsu desu ka?\nB: Raishuu-chuu ni kanryou yotei desu.",
+        "translation": "A: What is the schedule for this task?\nB: It is scheduled to be completed by next week."
+      },
+      {
+        "japanese": "A: デプロイの予定は明日で変わりありませんか？\nB: はい、予定通りです。",
+        "romaji": "A: Depuroi no yotei wa ashita de kawari arimasen ka?\nB: Hai, yotei doori desu.",
+        "translation": "A: Is the deployment schedule still tomorrow?\nB: Yes, it's as scheduled."
+      },
+      {
+        "japanese": "A: スケジュール変更の予定はありますか？\nB: はい、少し遅れる見込みです。",
+        "romaji": "A: Sukejūru henkou no yotei wa arimasu ka?\nB: Hai, sukoshi okureru mikomi desu.",
+        "translation": "A: Is there a plan to change the schedule?\nB: Yes, it's expected to be slightly delayed."
+      },
+      {
+        "japanese": "A: 明日の午後は予定がありますか？\nB: いいえ、空いています。",
+        "romaji": "A: Ashita no gogo wa yotei ga arimasu ka?\nB: Iie, aite imasu.",
+        "translation": "A: Do you have plans for tomorrow afternoon?\nB: No, I am free."
+      },
+      {
+        "japanese": "A: 次のミーティングの予定を決めましょう。\nB: 承知しました。いつが良いですか？",
+        "romaji": "A: Tsugi no mītingu no yotei o kimemashou.\nB: Shouchi shimashita. Itsu ga ii desu ka?",
+        "translation": "A: Let's decide the schedule for the next meeting.\nB: Understood. When is good?"
+      }
+    ]
+  },
+  {
+    "word": "提供",
+    "details": {
+      "description": "Common noun or verb meaning to provide or offer something.",
+      "kana": "ていきょう",
+      "translation": "Provision, supply, offer"
+    },
+    "examples": [
+      {
+        "japanese": "A: このシステムのアクセス権を提供してもらえますか？\nB: はい、担当者に確認して後で提供します。",
+        "romaji": "A: Kono shisutemu no akusesuken o teikyō shite moraemasu ka?\nB: Hai, tantōsha ni kakunin shite atode teikyō shimasu.",
+        "translation": "A: Could you provide access rights to this system?\nB: Yes, I will confirm with the person in charge and provide it later."
+      },
+      {
+        "japanese": "A: 新機能についてフィードバックを提供したいと思います。\nB: ありがとうございます。ぜひ聞かせてください。",
+        "romaji": "A: Shin kinō ni tsuite fīdobakku o teikyō shitai to omoimasu.\nB: Arigatō gozaimasu. Zehi kikasete kudasai.",
+        "translation": "A: I'd like to provide feedback on the new feature.\nB: Thank you very much. Please let me hear it."
+      },
+      {
+        "japanese": "A: ベンダーから新しいセキュリティソリューションの提供がありました。\nB: それは良いですね。詳細を確認しましょう。",
+        "romaji": "A: Bendā kara atarashii sekyuriti soryūshon no teikyō ga arimashita.\nB: Sore wa yoi desu ne. Shōsai o kakunin shimashō.",
+        "translation": "A: A new security solution was provided by the vendor.\nB: That's good. Let's check the details."
+      },
+      {
+        "japanese": "A: ユーザーへのサポート体制はどのように提供されますか？\nB: サポートデスクを通じて、24時間提供する予定です。",
+        "romaji": "A: Yūzā e no sapōto taisei wa dono yō ni teikyō saremasu ka?\nB: Sapōto desuku o tsūjite, 24-jikan teikyō suru yotei desu.",
+        "translation": "A: How will the support system for users be provided?\nB: We plan to provide it 24 hours a day through the support desk."
+      },
+      {
+        "japanese": "A: プロジェクトの進捗情報を提供してください。\nB: はい、現在のステータスについて最新情報を提供します。",
+        "romaji": "A: Purojekuto no shinchoku jōhō o teikyō shite kudasai.\nB: Hai, genzai no sutētasu ni tsuite saishin jōhō o teikyō shimasu.",
+        "translation": "A: Please provide the project progress information.\nB: Yes, I will provide the latest information about the current status."
+      }
+    ]
+  },
+  {
+    "word": "根本的",
+    "details": {
+      "description": "Na-adjective describing something fundamental or basic.",
+      "kana": "こんぽんてき",
+      "translation": "Fundamental"
+    },
+    "examples": [
+      {
+        "japanese": "A: このバグの根本的な原因は何ですか？\nB: データベース設計に根本的な問題があるようです。",
+        "romaji": "A: Kono bagu no konponteki na gen'in wa nan desu ka?\nB: Deetabeesu sekkei ni konponteki na mondai ga aru yō desu.",
+        "translation": "A: What is the fundamental cause of this bug?\nB: It seems there is a fundamental problem with the database design."
+      },
+      {
+        "japanese": "A: このシステムを改善するために、根本的な変更が必要ですか？\nB: ええ、ユーザーエクスペリエンスを根本的に見直すべきです。",
+        "romaji": "A: Kono shisutemu o kaizen suru tame ni, konponteki na henkō ga hitsuyō desu ka?\nB: Ee, yūzā ekusuperiensu o konponteki ni minaō subeki desu.",
+        "translation": "A: To improve this system, are fundamental changes necessary?\nB: Yes, we should fundamentally review the user experience."
+      },
+      {
+        "japanese": "A: この新しい機能の根本的な要件は何でしょう？\nB: セキュリティは最も根本的な部分です。",
+        "romaji": "A: Kono atarashii kinō no konponteki na yōken wa nan deshō?\nB: Sekyuriti wa mottomo konponteki na bubun desu.",
+        "translation": "A: What might be the fundamental requirements for this new feature?\nB: Security is the most fundamental part."
+      },
+      {
+        "japanese": "A: その提案は根本的な問題を解決できますか？\nB: はい、これは根本的なアプローチだと思います。",
+        "romaji": "A: Sono teian wa konponteki na mondai o kaiketsu dekimasu ka?\nB: Hai, kore wa konponteki na apurōchi da to omoimasu.",
+        "translation": "A: Can that proposal solve the fundamental problem?\nB: Yes, I think this is a fundamental approach."
+      },
+      {
+        "japanese": "A: 次のアーキテクチャ会議で、根本的な設計思想を議論しましょう。\nB: 賛成です。そこから始めましょう。",
+        "romaji": "A: Tsugi no āchitekucha kaigi de, konponteki na sekkei shisō o giron shimashō.\nB: Sansei desu. Soko kara hajimemashō.",
+        "translation": "A: In the next architecture meeting, let's discuss the fundamental design philosophy.\nB: Agreed. Let's start from there."
+      }
+    ]
+  },
+  {
+    "word": "具体的",
+    "details": {
+      "description": "な-adjective describing something as concrete or specific.",
+      "kana": "ぐたいてき",
+      "translation": "Concrete, specific"
+    },
+    "examples": [
+      {
+        "japanese": "A: プロジェクトの次のステップは何ですか？\nB: 具体的なアクションアイテムを確認しましょう。",
+        "romaji": "A: Purojekuto no tsugi no suteppu wa nan desu ka?\nB: Gutai-teki na akushon aitemu o kakunin shimashou.",
+        "translation": "A: What are the next steps for the project?\nB: Let's confirm the concrete action items."
+      },
+      {
+        "japanese": "A: この機能の要件は理解しました。\nB: 具体的な仕様についてもっと詳しく教えてください。",
+        "romaji": "A: Kono kinō no yōken wa rikai shimashita.\nB: Gutai-teki na shiyō ni tsuite motto kuwashiku oshiete kudasai.",
+        "translation": "A: I understand the requirements for this feature.\nB: Please tell me more specifically about the concrete specifications."
+      },
+      {
+        "japanese": "A: システムにいくつかの問題が見られます。\nB: 例えば、具体的なエラーメッセージは何ですか？",
+        "romaji": "A: Shisutemu ni ikutsuka no mondai ga mirareru.\nB: Tatoeba, gutai-teki na erā messēji wa nan desu ka?",
+        "translation": "A: We are seeing a few issues with the system.\nB: For example, what is the concrete error message?"
+      },
+      {
+        "japanese": "A: 新しいアーキテクチャを提案します。\nB: その具体的な内容はどのようなものですか？",
+        "romaji": "A: Atarashii āchikutēcha o teian shimasu.\nB: Sono gutai-teki na naiyō wa dono yō na mono desu ka?",
+        "translation": "A: I propose a new architecture.\nB: What are the concrete details of that?"
+      },
+      {
+        "japanese": "A: このタスクはいつ完了しますか？\nB: 具体的な完了日を提示してください。",
+        "romaji": "A: Kono tasuku wa itsu kanryō shimasu ka?\nB: Gutai-teki na kanryō-bi o teiji shite kudasai.",
+        "translation": "A: When will this task be completed?\nB: Please provide a concrete completion date."
+      }
+    ]
+  },
+  {
+    "word": "最終的",
+    "details": {
+      "description": "Adjective (な-adjective) meaning final or ultimate.",
+      "kana": "さいしゅうてき",
+      "translation": "Final, ultimate"
+    },
+    "examples": [
+      {
+        "japanese": "A: 最終的にこの機能はどうしますか？\nB: 最終的には導入することにしました。",
+        "romaji": "A: Saishūteki ni kono kinō wa dō shimasu ka?\nB: Saishūteki ni wa dōnyū suru koto ni shimashita.",
+        "translation": "A: What will we finally do with this feature?\nB: We finally decided to implement it."
+      },
+      {
+        "japanese": "A: プロジェクトの最終的な目標バージョンは何ですか？\nB: 最終的な目標はバージョン3.0です。",
+        "romaji": "A: Purojekuto no saishūteki na mokuhyō bājon wa nan desu ka?\nB: Saishūteki na mokuhyō wa bājon 3.0 desu.",
+        "translation": "A: What is the final target version for the project?\nB: The final target is version 3.0."
+      },
+      {
+        "japanese": "A: システムの最終的なアーキテクチャはこれで確定ですか？\nB: はい、最終的にはこの設計で進めます。",
+        "romaji": "A: Shisutemu no saishūteki na āki tekucha wa kore de kakutei desu ka?\nB: Hai, saishūteki ni wa kono sekkei de susumemasu.",
+        "translation": "A: Is the final system architecture confirmed with this?\nB: Yes, we will finally proceed with this design."
+      },
+      {
+        "japanese": "A: パフォーマンス試験の最終的な結果はどうでしたか？\nB: 最終的には目標値をクリアできました。",
+        "romaji": "A: Pafōmansu shiken no saishūteki na kekka wa dō deshita ka?\nB: Saishūteki ni wa mokuhyōchi o kuria dekimashita.",
+        "translation": "A: How were the final results of the performance test?\nB: We were finally able to clear the target value."
+      },
+      {
+        "japanese": "A: このユーザー要求が最終的なものでしょうか？\nB: はい、顧客との調整の結果、これが最終的な仕様です。",
+        "romaji": "A: Kono yūzā yōkyū ga saishūteki na mono deshō ka?\nB: Hai, kokyaku to no chōsei no kekka, kore ga saishūteki na shiyō desu.",
+        "translation": "A: Are these the final user requirements?\nB: Yes, as a result of adjustments with the client, these are the final specifications."
+      }
+    ]
+  },
+  {
+    "word": "提供",
+    "details": {
+      "description": "Common verb or noun meaning to provide or offer something.",
+      "kana": "ていきょう",
+      "translation": "provision, offer, supply"
+    },
+    "examples": [
+      {
+        "japanese": "A:新しいシステムへのアクセスを提供できますか？\nB:はい、来週には可能です。",
+        "romaji": "A:Atarashii shisutemu e no akusesu o teikyou dekimasu ka?\nB:Hai, raishuu ni wa kanou desu.",
+        "translation": "A:Can we provide access to the new system?\nB:Yes, it will be possible next week."
+      },
+      {
+        "japanese": "A:このサービスは顧客にどのような価値を提供しますか？\nB:使いやすさと高速な処理能力です。",
+        "romaji": "A:Kono saabisu wa kokyaku ni dono you na kachi o teikyou shimasu ka?\nB:Tsukaiyasu-sa to kousoku na shori nouryoku desu.",
+        "translation": "A:What kind of value does this service provide to customers?\nB:Ease of use and high-speed processing capability."
+      },
+      {
+        "japanese": "A:テスト環境の提供はいつから開始しますか？\nB:明日の午前中に開始予定です。",
+        "romaji": "A:Tesuto kankyou no teikyou wa itsu kara kaishi shimasu ka?\nB:Ashita no gozenchuu ni kaishi yotei desu.",
+        "translation": "A:When will the provision of the testing environment start?\nB:It's scheduled to start tomorrow morning."
+      },
+      {
+        "japanese": "A:より良いサポートを提供するために、何が必要ですか？\nB:FAQを充実させる必要があります。",
+        "romaji": "A:Yori yoi sapooto o teikyou suru tame ni, nani ga hitsuyou desu ka?\nB:FAQ o juujitsu saseru hitsuyou ga arimasu.",
+        "translation": "A:What is needed to provide better support?\nB:We need to enhance the FAQ."
+      },
+      {
+        "japanese": "A:他部署への情報提供について、確認が必要です。\nB:承知しました。担当者に連絡します。",
+        "romaji": "A:Tahusho e no jouhou teikyou ni tsuite, kakunin ga hitsuyou desu.\nB:Shouchi shimashita. Tantousha ni renraku shimasu.",
+        "translation": "A:Regarding providing information to other departments, confirmation is needed.\nB:Understood. I will contact the person in charge."
+      }
+    ]
+  },
+  {
+    "word": "資料",
+    "details": {
+      "description": "Noun for materials, data, or documents.",
+      "kana": "しりょう",
+      "translation": "Materials/Data"
+    },
+    "examples": [
+      {
+        "japanese": "A: 今日の会議の資料はありますか？\nB: はい、皆さんにお配りしました。",
+        "romaji": "A: Kyō no kaigi no shiryō wa arimasu ka?\nB: Hai, minasan ni okubari shimashita.",
+        "translation": "A: Do you have the materials for today's meeting?\nB: Yes, I have distributed them to everyone."
+      },
+      {
+        "japanese": "A: 資料の３ページをご覧ください。\nB: はい、見ています。",
+        "romaji": "A: Shiryō no san pēji o goran kudasai.\nB: Hai, mite imasu.",
+        "translation": "A: Please look at page 3 of the materials.\nB: Yes, I am looking."
+      },
+      {
+        "japanese": "A: このデータについて、もう少し詳しい資料が欲しいです。\nB: 承知いたしました。後ほどお送りします。",
+        "romaji": "A: Kono dēta ni tsuite, mō sukoshi kuwashii shiryō ga hoshii desu.\nB: Shōchi itashimashita. Nochi hodo ookuri shimasu.",
+        "translation": "A: Regarding this data, I would like a little more detailed material.\nB: Understood. I will send it later."
+      },
+      {
+        "japanese": "A: この資料はとても分かりやすいですね。\nB: ありがとうございます。",
+        "romaji": "A: Kono shiryō wa totemo wakariyasui desu ne.\nB: Arigatō gozaimasu.",
+        "translation": "A: These materials are very easy to understand, aren't they?\nB: Thank you very much."
+      },
+      {
+        "japanese": "A: 画面共有で資料を見せてもらえますか？\nB: はい、今から共有します。",
+        "romaji": "A: Gamen kyōyū de shiryō o misete moraemasu ka?\nB: Hai, ima kara kyōyū shimasu.",
+        "translation": "A: Can you show me the materials by sharing your screen?\nB: Yes, I will share now."
+      }
+    ]
+  }
+]
