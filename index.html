@@ -30,14 +30,6 @@
         .tab-button {
             width: 100%;
             padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            font-size: 0.875rem;
-            font-weight: 600;
-            border-radius: 0.375rem;
-            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-            transition-duration: 150ms;
         }
         #tab-generate-btn {
             color: #4b5563; /* text-gray-600 */
@@ -52,8 +44,48 @@
         }
         #tab-review-btn.active {
             background-color: #fff;
-            color: #a21caf; /* text-purple-600 */
-            box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+        }
+        .tab-content {
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+        .file-input-button {
+            display: block;
+            width: 100%;
+            font-size: 0.875rem;
+            color: #6b7280; /* text-gray-500 */
+        }
+        .file-input-button.indigo-style::file-selector-button {
+            background-color: #eef2ff; /* bg-indigo-50 */
+            color: #4338ca; /* text-indigo-700 */
+            border-radius: 9999px;
+            border: 0;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-right: 1rem;
+            padding: 0.5rem 1rem;
+        }
+        .file-input-button.indigo-style:hover::file-selector-button {
+            background-color: #e0e7ff; /* hover:bg-indigo-100 */
+        }
+        .file-input-button.blue-style::file-selector-button {
+            background-color: #eff6ff; /* bg-blue-50 */
+            color: #1d4ed8; /* text-blue-700 */
+            border-radius: 9999px;
+            border: 0;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-right: 1rem;
+            padding: 0.5rem 1rem;
+        }
+        .file-input-button.blue-style:hover::file-selector-button {
+            background-color: #dbeafe; /* hover:bg-blue-100 */
+            /* Active state: replaced @apply with equivalent CSS */
+            color: #9333ea; /* text-purple-600 */
+            background-color: #fff; /* bg-white */
+            box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); /* shadow */
         }
 
         .tab-content {
@@ -62,7 +94,7 @@
             border-radius: 1rem;
             box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
             width: 100%;
-            max-width: 42rem;
+            max-width: 42rem; /* max-w-2xl */
             margin-left: auto;
             margin-right: auto;
         }
@@ -71,10 +103,9 @@
         .file-input-button {
             display: block;
             width: 100%;
-            font-size: 0.875rem;
+            font-size: 0.875rem; /* text-sm */
             color: #6b7280; /* text-gray-500 */
         }
-        .file-input-button::-webkit-file-upload-button,
         .file-input-button::file-selector-button {
             margin-right: 1rem;
             padding-top: 0.5rem;
@@ -86,23 +117,38 @@
             font-size: 0.875rem;
             font-weight: 600;
         }
-        .file-input-button.indigo-style::-webkit-file-upload-button,
         .file-input-button.indigo-style::file-selector-button {
-            background-color: #eef2ff; /* indigo-50 */
-            color: #4338ca; /* indigo-700 */
+            background-color: #eef2ff; /* bg-indigo-50 */
+            color: #4338ca; /* text-indigo-700 */
+            border-radius: 9999px;
+            border: 0;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-right: 1rem;
+            padding: 0.5rem 1rem;
         }
-        .file-input-button.indigo-style:hover::-webkit-file-upload-button,
         .file-input-button.indigo-style:hover::file-selector-button {
-            background-color: #e0e7ff; /* indigo-100 */
+            background-color: #e0e7ff; /* hover:bg-indigo-100 */
         }
-        .file-input-button.blue-style::-webkit-file-upload-button,
         .file-input-button.blue-style::file-selector-button {
-            background-color: #eff6ff; /* blue-50 */
-            color: #1d4ed8; /* blue-700 */
+            background-color: #eff6ff; /* bg-blue-50 */
+            color: #1d4ed8; /* text-blue-700 */
+            border-radius: 9999px;
+            border: 0;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-right: 1rem;
+            padding: 0.5rem 1rem;
         }
-        .file-input-button.blue-style:hover::-webkit-file-upload-button,
         .file-input-button.blue-style:hover::file-selector-button {
-            background-color: #dbeafe; /* blue-100 */
+            background-color: #dbeafe; /* hover:bg-blue-100 */
+        }
+        /* Styles for hiding columns */
+        .hide-romaji .romaji-col, .hide-romaji .romaji-header {
+            display: none !important;
+        }
+        .hide-translation .translation-col, .hide-translation .translation-header {
+            display: none !important;
         }
     </style>
 </head>
@@ -238,6 +284,18 @@
                 <p class="text-xs text-gray-500 mt-1">Select one or more previously exported JSON files to review their contents.</p>
             </div>
 
+            <!-- New controls for hiding/showing Romaji and Translation -->
+            <div class="mb-4 flex items-center space-x-4">
+                <label class="flex items-center">
+                    <input type="checkbox" id="toggle-romaji" class="form-checkbox h-5 w-5 text-blue-600 rounded" checked>
+                    <span class="ml-2 text-gray-700">Show Romaji</span>
+                </label>
+                <label class="flex items-center">
+                    <input type="checkbox" id="toggle-translation" class="form-checkbox h-5 w-5 text-purple-600 rounded" checked>
+                    <span class="ml-2 text-gray-700">Show Translation</span>
+                </label>
+            </div>
+
             <div id="review-output-display" class="mt-6">
                 <h3 class="text-xl font-semibold mb-3 text-gray-800">Loaded Data:</h3>
                 <div id="review-word-details-container" class="space-y-4">
@@ -301,6 +359,8 @@
         const reviewWordDetailsContainer = document.getElementById('review-word-details-container');
         const reviewResultsContainer = document.getElementById('review-results-container');
         const reviewStatusMessage = document.getElementById('review-status-message');
+        const toggleRomajiCheckbox = document.getElementById('toggle-romaji'); // New
+        const toggleTranslationCheckbox = document.getElementById('toggle-translation'); // New
 
         // Config file elements
         const configFileInput = document.getElementById('config-file-input');
@@ -356,6 +416,11 @@
         saveConfigBtn.addEventListener('click', saveConfigToFile);
         configFileInput.addEventListener('change', loadConfigFromFile);
 
+        // New event listeners for toggling Romaji and Translation visibility
+        toggleRomajiCheckbox.addEventListener('change', toggleReviewColumns);
+        toggleTranslationCheckbox.addEventListener('change', toggleReviewColumns);
+
+
         /**
          * Shows the selected tab and hides others.
          * @param {string} tabId - The ID of the tab to show ('generate' or 'review').
@@ -381,6 +446,8 @@
                 reviewResultsContainer.innerHTML = '';
                 reviewStatusMessage.textContent = 'Upload a JSON file(s) to see its content here.';
                 jsonFileInput.value = ''; // Clear file input
+                // Apply current visibility settings when switching to review tab
+                toggleReviewColumns();
             }
         }
 
@@ -394,6 +461,9 @@
             const savedOllamaModel = localStorage.getItem('ollamaModelSelect');
             const savedApiKey = localStorage.getItem('geminiApiKey');
             const savedScenario = localStorage.getItem('scenarioInput');
+            const savedRomajiVisibility = localStorage.getItem('showRomaji');
+            const savedTranslationVisibility = localStorage.getItem('showTranslation');
+
 
             if (savedLlm) {
                 llmSelect.value = savedLlm;
@@ -407,6 +477,14 @@
             if (savedScenario) {
                 scenarioInput.value = savedScenario;
             }
+            // Load and apply visibility settings
+            if (savedRomajiVisibility !== null) {
+                toggleRomajiCheckbox.checked = JSON.parse(savedRomajiVisibility);
+            }
+            if (savedTranslationVisibility !== null) {
+                toggleTranslationCheckbox.checked = JSON.parse(savedTranslationVisibility);
+            }
+
             toggleOllamaModelInput(); // Call to set initial visibility and load Ollama models
         }
 
@@ -418,6 +496,8 @@
             localStorage.setItem('ollamaModelSelect', ollamaModelSelect.value);
             localStorage.setItem('geminiApiKey', geminiApiKeyInput.value); 
             localStorage.setItem('scenarioInput', scenarioInput.value);
+            localStorage.setItem('showRomaji', toggleRomajiCheckbox.checked); // Save visibility state
+            localStorage.setItem('showTranslation', toggleTranslationCheckbox.checked); // Save visibility state
         }
 
         /**
@@ -467,6 +547,8 @@
                 ollamaModelSelect.value = '';
                 geminiApiKeyInput.value = '';
                 scenarioInput.value = '';
+                toggleRomajiCheckbox.checked = true; // Reset visibility
+                toggleTranslationCheckbox.checked = true; // Reset visibility
                 toggleOllamaModelInput(); 
                 showError('All local data (settings and generated data) has been cleared.');
             }
@@ -485,7 +567,9 @@
                 llmSelect: llmSelect.value,
                 ollamaModelSelect: ollamaModelSelect.value,
                 geminiApiKey: geminiApiKeyInput.value,
-                scenarioInput: scenarioInput.value
+                scenarioInput: scenarioInput.value,
+                showRomaji: toggleRomajiCheckbox.checked, // Save visibility state
+                showTranslation: toggleTranslationCheckbox.checked // Save visibility state
             };
 
             const jsonString = JSON.stringify(config, null, 2);
@@ -522,15 +606,20 @@
                     if (loadedConfig.llmSelect !== undefined &&
                         loadedConfig.ollamaModelSelect !== undefined &&
                         loadedConfig.geminiApiKey !== undefined &&
-                        loadedConfig.scenarioInput !== undefined) {
+                        loadedConfig.scenarioInput !== undefined &&
+                        loadedConfig.showRomaji !== undefined && // Check for new fields
+                        loadedConfig.showTranslation !== undefined) { // Check for new fields
                         
                         llmSelect.value = loadedConfig.llmSelect;
                         ollamaModelSelect.value = loadedConfig.ollamaModelSelect;
                         geminiApiKeyInput.value = loadedConfig.geminiApiKey;
                         scenarioInput.value = loadedConfig.scenarioInput;
+                        toggleRomajiCheckbox.checked = loadedConfig.showRomaji; // Load visibility state
+                        toggleTranslationCheckbox.checked = loadedConfig.showTranslation; // Load visibility state
                         
                         saveConfig(); // Save loaded config to localStorage for persistence
                         toggleOllamaModelInput(); // Update Ollama model dropdown based on loaded LLM
+                        toggleReviewColumns(); // Apply loaded visibility settings
                         showError('Configuration loaded from file successfully!');
                     } else {
                         throw new Error('Invalid configuration file structure. Missing required fields.');
@@ -938,8 +1027,8 @@ Provide the output as a single, minified JSON object containing ONLY a key "exam
                         <thead class="bg-gray-50">
                             <tr>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Japanese</th>
-                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Romaji</th>
-                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Translation</th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider romaji-header">Romaji</th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider translation-header">Translation</th>
                             </tr>
                         </thead>
                         <tbody class="bg-white divide-y divide-gray-200">
@@ -949,8 +1038,8 @@ Provide the output as a single, minified JSON object containing ONLY a key "exam
                 tableHTML += `
                     <tr>
                         <td class="px-6 py-4 whitespace-pre-line text-sm font-medium text-gray-900">${ex.japanese || ''}</td>
-                        <td class="px-6 py-4 whitespace-pre-line text-sm text-gray-500">${ex.romaji || ''}</td>
-                        <td class="px-6 py-4 whitespace-pre-line text-sm text-gray-500">${ex.translation || ''}</td>
+                        <td class="px-6 py-4 whitespace-pre-line text-sm text-gray-500 romaji-col">${ex.romaji || ''}</td>
+                        <td class="px-6 py-4 whitespace-pre-line text-sm text-gray-500 translation-col">${ex.translation || ''}</td>
                     </tr>
                 `;
             });
@@ -1094,6 +1183,29 @@ Provide the output as a single, minified JSON object containing ONLY a key "exam
             } else {
                 reviewStatusMessage.textContent = `No valid data loaded. ${failedFiles > 0 ? `(${failedFiles} file(s) failed to load)` : ''}`;
             }
+            toggleReviewColumns(); // Apply visibility settings after loading new data
+        }
+
+        /**
+         * Toggles the visibility of Romaji and Translation columns in the review output tables.
+         */
+        function toggleReviewColumns() {
+            const showRomaji = toggleRomajiCheckbox.checked;
+            const showTranslation = toggleTranslationCheckbox.checked;
+            const reviewOutputDisplay = document.getElementById('review-output-display');
+
+            if (showRomaji) {
+                reviewOutputDisplay.classList.remove('hide-romaji');
+            } else {
+                reviewOutputDisplay.classList.add('hide-romaji');
+            }
+
+            if (showTranslation) {
+                reviewOutputDisplay.classList.remove('hide-translation');
+            } else {
+                reviewOutputDisplay.classList.add('hide-translation');
+            }
+            saveConfig(); // Save the current state of the checkboxes
         }
 
 
@@ -1119,6 +1231,8 @@ Provide the output as a single, minified JSON object containing ONLY a key "exam
             tabReviewBtn.disabled = isDisabling;
             configFileInput.disabled = isDisabling; 
             saveConfigBtn.disabled = isDisabling;   
+            toggleRomajiCheckbox.disabled = isDisabling; // Disable during processing
+            toggleTranslationCheckbox.disabled = isDisabling; // Disable during processing
         }
         
         /**
